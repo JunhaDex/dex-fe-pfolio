@@ -1,0 +1,11 @@
+
+:root {
+    /* Breakpoints */
+    --bp-min-header: 1440px;
+    --bp-min-pc: 1280px;
+    --bp-min-tablet: 768px;
+    --bp-min-mobile: 320px;
+    /* height of fixed elements */
+    --header-height: 66px;
+    --footer-height: 75px;
+}

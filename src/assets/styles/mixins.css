@@ -1,0 +1,38 @@
+/* responsive media query */
+.section-wrap {
+    max-width: var(--bp-min-mobile);
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .section-wrap {
+        max-width: var(--bp-min-tablet);
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-wrap {
+        max-width: var(--bp-min-pc);
+    }
+}
+
+
+/* mixin functions */
+@define-mixin icon-mask $filename {
+    .icon-$(filename) {
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-image: url('@/assets/icons/$(filename)-icon.svg');
+        background-color: black;
+        @mixin-content;
+    }
+}
+
+@mixin icon-mask gear {
+    background-color: red;
+}
+@mixin icon-mask lang {
+    background-color: black;
+}

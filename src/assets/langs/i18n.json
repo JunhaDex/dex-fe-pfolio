@@ -1,0 +1,8 @@
+{
+  "en": {
+    "guide": "Welcome to our Quick Start Template guide. This template is designed for developing Single Page Applications (SPAs) and provides a pre-configured environment that combines a simple yet highly flexible and practical stack of modern web technologies. The template integrates Vue 3, TypeScript, Tailwind CSS, PostCSS, and Vite, along with associated plugins and code linting tools such as ESLint and Prettier. This carefully curated stack aims to enhance your development experience by offering a streamlined, flexible, and efficient foundation for creating dynamic web applications."
+  },
+  "ko": {
+    "guide": "퀵 스타트 템플릿 가이드에 오신 것을 환영합니다. 이 템플릿은 단일 페이지 애플리케이션(SPA) 개발을 위해 설계되었으며 간단하지만 매우 유연하고 실용적인 최신 웹 기술 스택을 결합한 사전 구성 환경을 제공합니다. 이 템플릿은 Vue 3, TypeScript, Tailwind, PostCSS, Vite와 관련 플러그인 및 ESLint 및 Prettier 와 같은 Code Lint 도구를 포함하고 있습니다. 프로젝트를 위해 선별된 스택은 동적 웹 애플리케이션 생성을 위한 간단하고 유연하며 효율적인 기반을 제공함으로써 개발 경험을 향상시키는 것을 목표로 합니다."
+  }
+}

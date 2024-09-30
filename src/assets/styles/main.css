@@ -1,0 +1,30 @@
+@import "variables.css";
+@import "mixins.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    position: relative;
+    min-height: calc(100vh - var(--footer-height));
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rbox {
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
